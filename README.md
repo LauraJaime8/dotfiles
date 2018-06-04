@@ -1,7 +1,9 @@
 # Set up de Vagrant con Debian 8
 
 ```vagrant up```
+
 ```vagrant ssh```
+
 ```cd /personal-page``` para entrar en el proyecto.
 
 ## Cambiar bash por zsh
