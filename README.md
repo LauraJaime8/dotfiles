@@ -4,7 +4,7 @@
 
 ```vagrant ssh```
 
-```cd /personal-page``` para entrar en el proyecto.
+```cd /project-name``` para entrar en el proyecto.
 
 ## Cambiar bash por zsh
 
