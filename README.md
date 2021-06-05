@@ -49,3 +49,16 @@ sudo apt update && sudo apt install codium
 
 Instalar extension Settings Sync para configurarlo.
 
+# Gnome extensions
+```
+sudo apt install gnome-tweaks
+https://extensions.gnome.org/extension/120/system-monitor/
+```
+
+# Instalar tplink tarjeta de red
+```
+sudo apt install git build-essential dkms
+git clone https://github.com/aircrack-ng/rtl8812au.git
+cd rtl8812au
+```
+Seguir instrucciones readme.
