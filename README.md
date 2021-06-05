@@ -1,27 +1,21 @@
-## Setup en un nuevo equipo
+# Setup en un nuevo equipo
 
-# Tema para Gnome terminal
+## Tema para Gnome terminal
 ```
 sudo apt-get install dconf-cli uuid-runtime
 bash -c "$(wget -qO- https://git.io/vQgMr)"
 Theme 68
 ```
 
-# zsh + oh_my_zsh
+## zsh + oh_my_zsh
 
-Instalar zsh
+```
+apt install zsh
+chsh -s /bin/zsh
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
 
-`apt install zsh`
-
-Cambiar bash por zsh
-
-`chsh -s /bin/zsh`
-
-Instalar oh my zsh
-
-`sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
-
-Plugins
+## Plugins oh_my_zsh
 
 Spaceship prompt theme
 ```
